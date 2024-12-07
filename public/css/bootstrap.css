@@ -10838,7 +10838,9 @@ textarea.form-control-lg {
 
 .hover-icon:hover {
   border-radius: 15px;
-  background-color: #000;
+  background-color:#0000002a;
+  height: -5px;
+
 }
 .raduis:hover{
   display: flex;

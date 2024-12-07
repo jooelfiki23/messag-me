@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verify email</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!--conecat bootstrap-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <form action="/verifycode" method="post">
+        <div class="mb-3">
+            <label for="verify code" class="form-label">verify code</label>
+            <input type="text" name="verifycode"  class="form-control" id="verify code" placeholder="Enter your verify code" required>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn" style="background-color:  rgb(109, 209, 235);">verify now</button>
+          </div>
+    </form>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
